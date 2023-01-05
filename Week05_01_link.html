@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Burinchai">
+    <title>link-burinchai</title>
+    <style>
+        img{
+            width: 50px;
+            height: 50px;
+        }
+
+        /* a:link{
+            color: green;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited{
+            color: pink;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: darkred;
+            background-color: transparent;
+            text-decoration: underline;
+            text-decoration-color: black;
+            text-decoration-style: dashed;
+        }
+        
+        a:active{
+            color: yellow;
+            background-color: chartreuse;
+            text-decoration: none;
+        } */
+
+        a:link, a:visited{
+            background-color: cadetblue;
+            color: aliceblue;
+            padding: 5px 5px 5px 5px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px;
+        }
+
+        a:hover, a:active{
+            background-color: silver;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="Head">Welcome to Burinchai Homepage</h1>
+    <hr>
+    <h3 style="text-align: right;">
+        <a href="home.html"><img src="https://d1nhio0ox7pgb.cloudfront.net/_img/g_collection_png/standard/256x256/nav_left.png" alt="Back-button"></a>
+    </h3>
+    <h2>Absolute URL</h2>
+    <p>
+        <a href="https://www.npru.ac.th">NPRU</a>
+    </p>
+    <hr>
+    <h2>Targer attribute</h2>
+    <p>
+        <a href="https://www.npru.ac.th" target="_blank">NPRU - blank</a>
+    </p>
+    <p>
+        <a href="https://www.npru.ac.th" target="_self">NPRU - self</a>
+    </p>
+    <p>
+        <a href="https://www.npru.ac.th" target="_parent">NPRU - parent</a>
+    </p>
+    <p>
+        <a href="https://www.npru.ac.th" target="_top">NPRU - top</a>
+    </p>
+    <hr>
+    <h2>Relative URL</h2>
+    <p>
+        <a href="home.html">home</a>
+    </p>
+    <hr>
+    <h2>Link to Mail</h2>
+    <p>
+        <a href="mailto:644230046@webmail.npru.ac.th">Mail to ME</a>
+    </p>
+    <hr>
+    <h2>Button Link</h2>
+    <p>
+        <button onclick="document.location='home.html'">back to home</button>
+        <button type="submit">ยืนยัน</button>
+        <button type="reset">เคลียร์</button>
+    </p>
+    <hr>
+    <p style="text-align: center;">
+        <a href="#Head">Jump to top</a>
+        <a href="Week04_01_image.html#capibara">Jump to File:image.html</a>
+    </p>
+
+</body>
+</html>

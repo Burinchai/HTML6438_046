@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name= "author" content="Burinchai Sukon">
+    <meta name="description" content="เรียนรู้คำสั่ง HTML เบื้องต้น">
+    <meta name="keywords" content="html css bootstrap javascript">
+    <title>image-burinchai</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            background-image: url('Images/ChristmasBG.jpg');
+            background-repeat:no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Burinchai Homepage</h1>
+    <hr>
+    <h3 style="text-align: right;"><a href="home.html" >Back to home</a></h3>
+    
+    <h3>Image syntax</h3>
+    <p id="capibara">แสดงรูปภาพ โดยการอ้างอิงจากเว็บไซต์</p>
+    <img src="https://preview.redd.it/ppqmoi6k41k91.jpg?width=640&crop=smart&auto=webp&s=9e83187a9a8a54e0879ab405a22689eab0a1ec43" alt="Capybara">
+    <hr>
+    <p>แสดงรูปภาพ โดยการอ้างอิงจากโฟลเดอร์ในเครื่องของเรา</p>
+    <img src="Images/flower-icon-3.png" alt="Flower">
+    <hr>
+    <p>แสดงรูปภาพ โดยการอ้างอิงจากโฟลเดอร์ในเครื่องของเราและปรับขนาดภาพเป็นพิกเซล</p>
+    <img src="Images/flower-icon-3.png" alt="Flower" width="50px" height="50 px">
+    <hr>
+    <p>แสดงรูปภาพ โดยการอ้างอิงจากโฟลเดอร์ในเครื่องของเราและปรับขนาดภาพเป็นเปอร์เซ็น</p>
+    <img src="Images/flower-icon-3.png" alt="Flower" width="50%" height="50%">
+    <hr>
+    <p>แสดงรูปภาพ โดยการอ้างอิงจากโฟลเดอร์ในเครื่องของเราและปรับขนาดภาพด้วย css</p>
+    <img src="Images/flower-icon-3.png" alt="Flower" style="width: 50%; height: 50%;">
+    <hr>
+    <p>แสดงรูปภาพไว้ด้านขวาของข้อความ <br>
+        <img src="Images/flower-icon-3.png" alt="Flower" style="width: 20%; height: 20%; float: right;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Dolorum ipsam reiciendis quam ratione cum, nesciunt blanditiis 
+        officia voluptatum quod. Voluptatibus iure incidunt fuga quaerat 
+        corrupti quibusdam id maxime fugiat. Harum!Lorem Lorem ipsum dolor 
+        sit amet consectetur adipisicing elit. Tenetur provident, laboriosam
+        dicta quam pariatur similique fugit sequi et? Delectus quos animi est ut, 
+        voluptas deleniti ipsum aliquid aspernatur? Dicta, accusantium.
+    </p>
+    <hr>
+    <p>ลิ้งแบบรูปภาพ</p>
+    <a href="home.html"><img src="Images/flower-icon-3.png" alt="Flower" width="50px" height="50px"></a>
+    <hr>
+</body>
+</html>
