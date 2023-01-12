@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Burinchai">
+    <title>table-burinchai</title>
+    <style>
+        h3 a{
+            color: aliceblue;
+            background-color: red;
+            text-decoration: none;
+            padding: 5px 15px;
+            border-style:ridge;
+            border-color:gray;
+        }
+
+        h3 a:hover{
+            color: black;
+            background-color: aqua;
+        }
+
+        .pad_space{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Welcome to Burinchai Homepage</h1>
+    <hr>
+    <h3 style="text-align: right;">
+        <a href="home.html">Back to home</a>
+    </h3>
+    
+    <h2>Normal Table</h2>
+
+    <table border="1" align="center">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Phone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>644230046</td>
+                <td>Burinchai</td>
+                <td>0806503175</td>
+            </tr>
+            <tr>
+                <td>644230016</td>
+                <td>Karan</td>
+                <td>000XXX000</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <h2>add color to Table : bgcolor/bordercolor</h2>
+
+    <table border="10" align="center" bordercolor="orange">
+        <thead  bgcolor="skyblue">
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Phone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>644230046</td>
+                <td>Burinchai</td>
+                <td>0806503175</td>
+            </tr>
+            <tr>
+                <td>644230016</td>
+                <td>Karan</td>
+                <td bgcolor="#f0ff0">000XXX000</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    
+    <h2>Table : width/align/colspan/rowspan</h2>
+    
+    <table border="10" align="center" bordercolor="orange">
+        <thead  bgcolor="skyblue">
+            <tr>
+                <th>Id</th>
+                <th width="200px" align="left">Name</th>
+                <th>Phone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>644230046</td>
+                <td>Burinchai</td>
+                <td bgcolor="#f0ff0" rowspan="2">0806503175</td>
+            </tr>
+            <tr>
+                <td>644230016</td>
+                <td>Karan</td>
+            </tr>
+            <tr>
+                <td colspan="2" bgcolor="lime">Call teacher</td>
+                <td>0982466871</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <h2>Table : cellpadding/cellspacing</h2>
+    
+    <table class="pad_space" border="10" align="center" bordercolor="orange" cellpadding="20" cellspacing="5">
+        <thead  bgcolor="skyblue">
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Phone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>644230046</td>
+                <td>Burinchai</td>
+                <td>0806503175</td>
+            </tr>
+            <tr>
+                <td>644230016</td>
+                <td>Karan</td>
+                <td bgcolor="#f0ff0">000XXX000</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+</body>
+</html>
