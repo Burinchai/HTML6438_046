@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Burinchai">
+    <title>Week06-Workshop-table</title>
+    <style>
+        h3 a{
+            color: aliceblue;
+            background-color: red;
+            text-decoration: none;
+            padding: 5px 15px;
+            border-style:ridge;
+            border-color:gray;
+        }
+
+        h3 a:hover{
+            color: black;
+            background-color: aqua;
+        }
+        
+        table{
+            border-collapse:collapse;
+            text-align: center;
+            height: 250px;
+        }
+
+        thead{
+            background-color: blueviolet;
+            font-style: italic;
+            color: white;
+        }
+
+        tbody tr{
+            border-bottom: 1px solid;
+        }
+        
+        .Oper{
+            color: red;
+            background-color:aquamarine;
+            text-decoration: underline;
+
+        }
+        .Nm{
+            text-align: left;
+        }
+
+        tfoot{
+            background-color: orchid;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Welcome to Burinchai Homepage</h1>
+    <hr>
+    <h3 style="text-align: right;">
+        <a href="home.html">Back to home</a>
+    </h3>
+    <h2 style="text-align: center;">รายการสินค้า</h2>
+   <table align="center" cellpadding="10">
+        <thead>
+            <tr>
+               
+                <th>รหัสสินค้า</th>
+                <th>ภาพสินค้า</th>
+                <th width="250">ชื่อสินค้า</th>
+                <th>ราคา</th>
+                <th>ดำเนินการ</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>P001</td>
+                <td><img src="Images/S01.jpg" alt="Sushi_1" width="80"></td>
+                <td class="Nm">Sushi 1</td>
+                <td>350</td>
+                <td class="Oper">delete</td>
+            </tr>
+            <tr>
+                <td>P002</td>
+                <td><img src="Images/S02.jpg" alt="Sushi_1" width="80"></td>
+                <td class="Nm">Sushi 2</td>
+                <td>350</td>
+                <td class="Oper">delete</td>
+            </tr>
+            <tr>
+                <td>P003</td>
+                <td><img src="Images/S03.jpg" alt="Sushi_1" width="80"></td>
+                <td class="Nm">Sushi 3</td>
+                <td>350</td>
+                <td class="Oper">delete</td>
+            </tr>
+            <tr>
+                <td>P004</td>
+                <td><img src="Images/S04.jpg" alt="Sushi_1" width="80"></td>
+                <td class="Nm">Sushi 4</td>
+                <td>120</td>
+                <td class="Oper">delete</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4" style="text-align: right; color: white;"><b>ราคารวม : 500 บาท</b></td>
+                <td><button>Order Now
+                </button></td>
+            </tr>
+        </tfoot>
+   </table>
+</body>
+</html>
